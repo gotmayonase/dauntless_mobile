@@ -3,18 +3,18 @@ import { View } from 'react-native';
 import { applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
-import styles from './Stylesheet'
+import styles from '../Stylesheet'
 import axios from 'axios';
 import axiosMiddleware from 'redux-axios-middleware';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import reducer from './reducers';
+import reducer from '../reducers';
 import ArmorList from './ArmorList';
 import ArmorDetail from './ArmorDetail';
 import WeaponList from './WeaponList';
 import WeaponDetail from './WeaponDetail';
 import GearBuilder from './GearBuilder';
 import GearSetDetail from './GearSetDetail';
-import './ReactotronConfig'
+import '../Config/ReactotronConfig'
 import Reactotron from 'reactotron-react-native';
 
 const client = axios.create({

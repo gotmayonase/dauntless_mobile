@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text, View, SectionList } from 'react-native';
 import { connect } from 'react-redux';
-import styles from './Stylesheet'
+import styles from '../Stylesheet'
 
-import { listArmors, listWeapons, listGearSet } from './reducers';
-import FormGroup from './FormGroup';
+import { listArmors, listWeapons, listGearSet } from '../reducers';
+import FormGroup from '../Components/FormGroup';
 
 export class GearSetDetail extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from './Stylesheet'
+import styles from '../Stylesheet'
 
 const FormGroup = ( { label, value} ) => {
 

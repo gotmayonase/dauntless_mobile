@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
-import styles from './Stylesheet'
-import FormGroup from './FormGroup'
+import styles from '../Stylesheet'
+import FormGroup from '../Components/FormGroup'
 
-import { getWeaponDetail } from './reducers'
+import { getWeaponDetail } from '../reducers'
 
 class WeaponDetail extends Component {
 

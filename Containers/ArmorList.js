@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
 import { connect } from 'react-redux';
-import styles from './Stylesheet'
+import styles from '../Stylesheet'
 
-import { listArmors } from './reducers';
+import { listArmors } from '../reducers';
 
 export class ArmorList extends React.Component {
 

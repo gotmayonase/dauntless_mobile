@@ -3,9 +3,9 @@ import { Text, View, StyleSheet, Button } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 import { connect } from 'react-redux';
 
-import styles from './Stylesheet'
+import styles from '../Stylesheet'
 
-import { listArmors, listWeapons, setGearSetPiece, listGearSet } from './reducers';
+import { listArmors, listWeapons, setGearSetPiece, listGearSet } from '../reducers';
 
 export class GearBuilder extends React.Component {
 
