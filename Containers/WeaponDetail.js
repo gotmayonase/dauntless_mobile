@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
-import styles from '../Stylesheet'
+import styles from '../Styles/Stylesheet'
 import FormGroup from '../Components/FormGroup'
 
 import { getWeaponDetail } from '../reducers'

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
 import { connect } from 'react-redux';
-import styles from '../Stylesheet'
+import styles from '../Styles/Stylesheet'
 
 import { listArmors } from '../reducers';
 
